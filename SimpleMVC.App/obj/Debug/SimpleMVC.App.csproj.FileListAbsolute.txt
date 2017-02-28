@@ -1,0 +1,16 @@
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe.config
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.csprojResolveAssemblyReference.cache
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\Resources\Pages\404.html
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\Resources\Pages\500.html
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.pdb
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.dll
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\SimpleHttpServer.dll
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.dll
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\SimpleHttpServer.pdb
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.pdb
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.xml
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.exe
+C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.pdb
