@@ -20,7 +20,7 @@ namespace SharpStore.ViewModels
         {
             return "<div class=\"col-lg-4\">\r\n" +
                    "<div class=\"card\">\r\n" +
-                   "<img class=\"img-thumbnail\" " +
+                   "<img style=\"width: 400px; height: 200px\" class=\"img-thumbnail\" " +
                    $"src=\"{ImageURL}\" " +
                    "alt=\"Knife Image\">\r\n" +
                    "<div class=\"card-block\">\r\n" +

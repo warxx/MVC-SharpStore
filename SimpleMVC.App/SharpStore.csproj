@@ -55,12 +55,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStart.cs" />
+    <Compile Include="BindingModels\AddProductBindingModel.cs" />
+    <Compile Include="BindingModels\EditProductBindingModel.cs" />
     <Compile Include="BindingModels\LoginUserBindingModel.cs" />
     <Compile Include="BindingModels\MessageBinding.cs" />
     <Compile Include="BindingModels\PurchaseBinding.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Data\Data.cs" />
     <Compile Include="Data\SharpStoreContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -76,6 +79,7 @@
     <Compile Include="Services\MessagesService.cs" />
     <Compile Include="Services\ProductsService.cs" />
     <Compile Include="Services\Service.cs" />
+    <Compile Include="Utilities\AuthenticationManager.cs" />
     <Compile Include="ViewModels\AdminPanelProductViewModel.cs" />
     <Compile Include="ViewModels\BuyKnifeViewModel.cs" />
     <Compile Include="ViewModels\ProductViewModel.cs" />
@@ -86,6 +90,8 @@
     <Compile Include="Views\Home\Index.cs" />
     <Compile Include="Views\Home\Products.cs" />
     <Compile Include="Views\Login\Login.cs" />
+    <Compile Include="Views\Products\Add.cs" />
+    <Compile Include="Views\Products\Edit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

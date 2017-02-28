@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SharpStore.BindingModels;
 using SharpStore.Data;
+using SharpStore.Models;
 using SharpStore.ViewModels;
 
 namespace SharpStore.Services
@@ -12,6 +14,13 @@ namespace SharpStore.Services
     {
         public ProductsService(SharpStoreContext context) : base(context)
         {
+        }
+
+
+        public Knife IsKnifeIdExist(int knifeId)
+        {
+            var knife = context.Knives.Find(knifeId);
+            return knife;
         }
 
         public IEnumerable<ProductViewModel> GetProducts(string productName)
@@ -35,7 +44,7 @@ namespace SharpStore.Services
 
         public IEnumerable<AdminPanelProductViewModel> GetAdminPanelProducts()
         {
-            var knives = Data.Data.Context.Knives.ToArray();
+            var knives = this.context.Knives.ToArray();
             var viewModels = new List<AdminPanelProductViewModel>();
 
             foreach (var knife in knives)
@@ -52,6 +61,40 @@ namespace SharpStore.Services
             }
 
             return viewModels;
+        }
+
+        public void AddProduct(AddProductBindingModel model)
+        {
+            var knife = new Knife()
+            {
+                Name = model.Name,
+                Price = model.Price,
+                ImageURL = model.ImageUrl
+            };
+
+            this.context.Knives.Add(knife);
+            this.context.SaveChanges();
+        }
+
+        public void DeleteProduct(int knifeId)
+        {
+            var knife = context.Knives.Find(knifeId);
+            this.context.Knives.Remove(knife);
+            this.context.SaveChanges();
+        }
+
+        public void Update(EditProductBindingModel model, int knifeId)
+        {
+            var knife = this.context.Knives.Find(knifeId);
+
+            if (!string.IsNullOrEmpty(model.Name))
+            {
+                knife.Name = model.Name;
+            }
+            if (!string.IsNullOrEmpty(model.ImageUrl))
+                knife.ImageURL = model.ImageUrl;
+
+            this.context.SaveChanges();
         }
     }
 }

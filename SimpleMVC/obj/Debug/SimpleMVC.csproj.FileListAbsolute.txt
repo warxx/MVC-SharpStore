@@ -16,3 +16,5 @@ C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleMVC\obj\Debug\SimpleMVC.csprojResolveAssemblyReference.cache
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleMVC\obj\Debug\SimpleMVC.dll
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleMVC\obj\Debug\SimpleMVC.pdb
+C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleMVC\bin\Debug\SimpleMVC.dll.CodeAnalysisLog.xml
+C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleMVC\bin\Debug\SimpleMVC.dll.lastcodeanalysissucceeded

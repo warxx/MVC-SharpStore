@@ -24,8 +24,8 @@
 <body>
 <div class="navbar-wrapper">
     <div class="container">
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
                             aria-controls="navbar">
@@ -49,6 +49,10 @@
                             </ul>
                         </li>
                     </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/admin/index"></span>Admin Panel</a></li>
+                        <li><a href="/admin/logout"></span>Logout</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -56,25 +60,27 @@
 </div>
 <div class="container marketing">
     <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-6">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
             <form method="POST" enctype="application/x-www-form-urlencoded">
-                <label>Username</label>
-                <div class="input-group">
-                    <input type="text" name="Username" class="form-control" placeholder="Enter username...">
-                    <span class="input-group-addon" id="basic-addon2">*</span>
+                <label>Name</label>
+                <div>
+                    <input type="text" class="form-control" name="Name" placeholder="Enter name...">
                 </div>
-                <label>Password</label>
-                <div class="input-group">
-                    <input type="password" name="Password" class="form-control" placeholder="Enter password...">
-                    <span class="input-group-addon" id="basic-addon2">*</span>
+                <label>Price</label>
+                <div>
+                    <input type="text" name="Price" class="form-control" placeholder="Enter price...">
+                </div>
+                <label>Image URL</label>
+                <div>
+                    <input type="text" name="ImageUrl" class="form-control" placeholder="Enter image URL...">
                 </div>
                 <br/>
-                <input type="submit" class="btn btn-primary" value="Login" />
+                <input type="submit" class="btn btn-primary" value="Update" />
             </form>
             <br/>
         </div>
-        <div class="col-sm-2"></div>
+        <div class="col-sm-4"></div>
     </div>
     <!-- /END THE FEATURETTES -->
     <footer>

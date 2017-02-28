@@ -11,7 +11,6 @@ C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
-C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
 C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
 C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\MVC-SharpStore\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
@@ -22,3 +21,4 @@ C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\MVC
 C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\MVC-SharpStore\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
 C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\MVC-SharpStore\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
 C:\Users\warXx\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\MVC-SharpStore\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\c0dyy_000\Desktop\C# Web Development Basics\MVC Workshop\MVC-SharpStore\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache

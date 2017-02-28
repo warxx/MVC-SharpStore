@@ -16,6 +16,38 @@ namespace SharpStore
                 {
                     new Route()
                     {
+                      Name = "Bootstrap Map",
+                        Method = RequestMethod.GET,
+                        UrlRegex = "/bootstrap/css/bootstrap.min.css.map$",
+                        Callable = (request) =>
+                        {
+                            var response = new HttpResponse()
+                            {
+                                StatusCode = ResponseStatusCode.Ok,
+                                ContentAsUTF8 = File.ReadAllText("../../content/bootstrap/css/bootstrap.min.css.map")
+                            };
+                            response.Header.ContentType = "application/x-javascript";
+                            return response;
+                        }
+                    },
+                    new Route()
+                    {
+                      Name = "Jquery JS",
+                        Method = RequestMethod.GET,
+                        UrlRegex = "/jquery/jquery-3.1.1.js$",
+                        Callable = (request) =>
+                        {
+                            var response = new HttpResponse()
+                            {
+                                StatusCode = ResponseStatusCode.Ok,
+                                ContentAsUTF8 = File.ReadAllText("../../content/jquery/jquery-3.1.1.js")
+                            };
+                            response.Header.ContentType = "application/x-javascript";
+                            return response;
+                        }
+                    },
+                    new Route()
+                    {
                         Name = "Favicon",
                         Method = RequestMethod.GET,
                         UrlRegex = "/favicon.ico$",

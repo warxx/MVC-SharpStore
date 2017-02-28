@@ -10,7 +10,7 @@ using SimpleMVC.Interfaces.Generic;
 
 namespace SharpStore.Views.Admin
 {
-    public class Index : IRenderable<IEnumerable<ProductViewModel>>
+    public class Index : IRenderable<IEnumerable<AdminPanelProductViewModel>>
     {
         public string Render()
         {
@@ -22,9 +22,9 @@ namespace SharpStore.Views.Admin
                 sb.Append(viewModel);
             }
 
-            return
+            return string.Format(content, sb);
         }
 
-        public IEnumerable<ProductViewModel> Model { get; set; }
+        public IEnumerable<AdminPanelProductViewModel> Model { get; set; }
     }
 }
