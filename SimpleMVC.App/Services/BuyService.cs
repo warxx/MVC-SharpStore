@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using SharpStore.BindingModels;
 using SharpStore.Data;
 using SharpStore.Models;
+using SharpStore.ViewModels;
 
 namespace SharpStore.Services
 {
@@ -38,6 +39,27 @@ namespace SharpStore.Services
             }
 
             return true;
+        }
+
+        public IEnumerable<AllOrdersViewModel> GetPurchases()
+        {
+            var orders = this.context.Purchases.ToArray();
+
+            var viewModels = new List<AllOrdersViewModel>();
+
+            foreach (var purchase in orders)
+            {
+                viewModels.Add(new AllOrdersViewModel()
+                {
+                    Id = purchase.Id,
+                    BuyerName = purchase.BuyerName,
+                    BuyerPhone = purchase.BuyerPhone,
+                    BuyerAddress = purchase.BuyerAddress,
+                    DeliveryType = purchase.DeliveryType
+                });
+            }
+
+            return viewModels;
         }
     }
 }

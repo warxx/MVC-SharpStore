@@ -58,12 +58,27 @@
 </div>
 <div class="container">
     <br />
-    <h2>
-        <a href="/products/add" class="btn btn-primary">Add product</a>
-        <a href="/products/orders" class="btn btn-info">All orders</a>
-    </h2>
-
-    {0}
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <h2>All orders</h2>
+        <div class="table table-hover">
+            <table class="table table-hover">
+                <thead>
+                <tr class="info">
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th>Delivery type</th>
+                </tr>
+                </thead>
+                <tbody>
+                {0}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-2"></div>
 </div>
 
 <div class="container marketing">

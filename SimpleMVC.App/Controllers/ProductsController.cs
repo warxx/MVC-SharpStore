@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 using SharpStore.BindingModels;
 using SharpStore.Services;
 using SharpStore.Utilities;
+using SharpStore.ViewModels;
 using SimpleHttpServer.Models;
 using SimpleMVC.Attributes.Methods;
 using SimpleMVC.Controllers;
 using SimpleMVC.Interfaces;
+using SimpleMVC.Interfaces.Generic;
 
 namespace SharpStore.Controllers
 {
@@ -99,6 +101,22 @@ namespace SharpStore.Controllers
 
             this.Redirect(response, "/admin/index");
             return null;
+        }
+
+        [HttpGet]
+        public IActionResult<IEnumerable<AllOrdersViewModel>> Orders(HttpResponse response, HttpSession session)
+        {
+            var user = AuthenticationManager.GetAuthenticatedUser(session.Id);
+            if (user == null)
+            {
+                this.Redirect(response, "/login/login");
+                return null;
+            }
+
+            var service = new BuyService(Data.Data.Context);
+            var viewModels = service.GetPurchases();
+
+            return this.View(viewModels);
         }
     }
 }

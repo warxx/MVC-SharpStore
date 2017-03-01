@@ -81,6 +81,7 @@
     <Compile Include="Services\Service.cs" />
     <Compile Include="Utilities\AuthenticationManager.cs" />
     <Compile Include="ViewModels\AdminPanelProductViewModel.cs" />
+    <Compile Include="ViewModels\AllOrdersViewModel.cs" />
     <Compile Include="ViewModels\BuyKnifeViewModel.cs" />
     <Compile Include="ViewModels\ProductViewModel.cs" />
     <Compile Include="Views\Admin\Index.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Views\Login\Login.cs" />
     <Compile Include="Views\Products\Add.cs" />
     <Compile Include="Views\Products\Edit.cs" />
+    <Compile Include="Views\Products\Orders.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
